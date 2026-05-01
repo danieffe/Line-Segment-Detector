@@ -130,7 +130,6 @@ While the default values are based on the original IPOL publication, the impleme
 
 ## 📝 Notes on Implementation
 - **Performance vs Accuracy Trade-off:**  
-  The algorithm provides two execution modes to balance speed and precision.  
   In real-time (webcam) mode, the resolution is reduced (e.g., **320×240**) and `fast_mode` is enabled to ensure smooth performance and low latency.  
   In contrast, static image mode operates at full precision with refinement steps, prioritizing detection accuracy over speed.
 
